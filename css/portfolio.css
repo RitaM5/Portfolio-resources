@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20PX;
+    height: 64px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+/* header & navigation styles */
+.header{
+    background-color: #FFF8F3;
+    overflow: hidden;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+}
+nav li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+/* banner */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.banner-desc{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 80px 150px;
+    text-align: center;
+}
+.sec-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 35px;
+}
+.sec-desc{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info-title{
+    font-size: 20px;
+    color:#757575;
+}
+.info-desc{
+    font-weight: 700;
+    font-size: 20px;
+    color:#474747;
+}
